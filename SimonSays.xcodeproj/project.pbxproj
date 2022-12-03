@@ -13,6 +13,7 @@
 		2F6ED1742922CC5F0088AD8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F6ED1722922CC5F0088AD8A /* Main.storyboard */; };
 		2F6ED1762922CC610088AD8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F6ED1752922CC610088AD8A /* Assets.xcassets */; };
 		2F6ED1792922CC610088AD8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F6ED1772922CC610088AD8A /* LaunchScreen.storyboard */; };
+		2FE69AC8293918CD004811BA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE69AC7293918CD004811BA /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2F6ED1752922CC610088AD8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F6ED1782922CC610088AD8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F6ED17A2922CC610088AD8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FE69AC7293918CD004811BA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				2F6ED16C2922CC5F0088AD8A /* AppDelegate.swift */,
 				2F6ED16E2922CC5F0088AD8A /* SceneDelegate.swift */,
 				2F6ED1702922CC5F0088AD8A /* ViewController.swift */,
+				2FE69AC7293918CD004811BA /* GameViewController.swift */,
 				2F6ED1722922CC5F0088AD8A /* Main.storyboard */,
 				2F6ED1752922CC610088AD8A /* Assets.xcassets */,
 				2F6ED1772922CC610088AD8A /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FE69AC8293918CD004811BA /* GameViewController.swift in Sources */,
 				2F6ED1712922CC5F0088AD8A /* ViewController.swift in Sources */,
 				2F6ED16D2922CC5F0088AD8A /* AppDelegate.swift in Sources */,
 				2F6ED16F2922CC5F0088AD8A /* SceneDelegate.swift in Sources */,
@@ -292,8 +296,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,8 +323,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
